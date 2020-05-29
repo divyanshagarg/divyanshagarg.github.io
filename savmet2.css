@@ -80,6 +80,8 @@ background-color: lightblue;
 }
 
 #contact{
+	position: relative;
+	right: 200px;
 	text-align: center;
 	color: brown;
 	font-size: 18px;
