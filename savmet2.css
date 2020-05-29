@@ -14,11 +14,8 @@ position: static;
 
 
 
-
-
-
 .navbar {
-  width: 100%;
+  width: 500px;
   background-color: #555;
   overflow: auto;
 }
@@ -83,7 +80,8 @@ background-color: lightblue;
 }
 
 #contact{
-	text-align: center;
+	position: relative;
+	left: 300px;
 	color: brown;
 	font-size: 18px;
 }
