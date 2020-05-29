@@ -1,0 +1,247 @@
+<!Doctype.html>
+<html>
+<head>
+<link href="savmet3.css" type="text/css" rel="stylesheet">
+<title>Place order</title>
+</head>
+<body>
+<h3 id="price"> PRICE LIST</h3><br><br>
+<div class="table">
+<table>
+<thead>
+<tr>
+<th scope="col">BOOK CODE</th>
+<th scope="col">BOOK NAME</th>
+<th scope="col">AUTHOR</th>
+<th scope="col">PRICE(Rs.)</th>
+<th scope="col">SHIPPING COST(Rs.)</th>
+<th scope="col">TOTAL(Rs.)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A12</td>
+<td>Harry potter and the goblet of fire</td>
+<td>J.K.Rowling</td>
+<td>450</td>
+<td >40</td>
+<td>490</td>
+</tr>
+<tr>
+<td>B20</td>
+<td>Lord of the rings</td>
+<td>J.R.R.Tolkien</td>
+<td>540</td>
+<td>40</td>
+<td>580</td>
+</tr>
+<tr>
+<td>C50</td>
+<td>Dracula</td>
+<td>Bram Stoker</td>
+<td>340</td>
+<td>100</td>
+<td>440</td>
+</tr>
+<tr>
+<td>D19</td>
+<td>Godan</td>
+<td>Premchand</td>
+<td>200</td>
+<td>50</td>
+<td>250</td>
+</tr>
+<tr>
+<td>E59</td>
+<td>Wings of Fire</td>
+<td>A.P.J. Abdul Kalam</td>
+<td>300</td>
+<td>50</td>
+<td>350</td>
+</tr>
+<tr>
+<td>F39</td>
+<td>Sardar</td>
+<td>Balraj Krishna</td>
+<td>400</td>
+<td>Free</td>
+<td>400</td>
+</tr>
+<tr>
+<td>G34</td>
+<td>Three Thousand Stitches</td>
+<td>Sudha Murty</td>
+<td>540</td>
+<td>30</td>
+<td>570</td>
+</tr>
+<tr>
+<td>H53</td>
+<td>Lal Bahadur Shastri Period</td>
+<td>Dr. K Babu Rajendra Prasad</td>
+<td>570</td>
+<td>Free</td>
+<td>570</td>
+</tr>
+<tr>
+<td>I67</td>
+<td>Matilda</td>
+<td>Roald Dahl</td>
+<td>200</td>
+<td>30</td>
+<td>230</td>
+</tr>
+<tr>
+<td>J12</td>
+<td>A Pocket Book of Short Stories</td>
+<td>Speare,M. Edmund</td>
+<td>100</td>
+<td>20</td>
+<td>120</td>
+</tr>
+<tr>
+<td>K99</td>
+<td>Rangbhoomi</td>
+<td>Premchand</td>
+<td>300</td>
+<td>30</td>
+<td>330</td>
+</tr>
+<tr>
+<td>L24</td>
+<td>The Book Thief</td>
+<td>Markus Zusak</td>
+<td>120</td>
+<td>Free</td>
+<td>120</td>
+</tr>
+<tr>
+<td>M20</td>
+<td>Wink</td>
+<td>Rob Harrell</td>
+<td>470</td>
+<td>30</td>
+<td>500</td>
+</tr>
+<tr>
+<td>N65</td>
+<td>Yatra</td>
+<td>Manoj Vedprakash Pandey</td>
+<td>320</td>
+<td>10</td>
+<td>330</td>
+</tr>
+<tr>
+<td>O56</td>
+<td>Roll With It</td>
+<td>Jamie Sumner</td>
+<td>200</td>
+<td>50</td>
+<td>250</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<br><br><h3 id="form"> ORDER FORM</h3><br><br><br>
+<form  method="Post">
+<label for="book1">ENTER YOUR NAME:</label>
+<input type="text" name="book1" id="book1" required><br><br><br>
+<label for="book2">ENTER YOUR ADDRESS:</label>
+<input type="text" name="book2" id="book2" required><br><br><br>
+
+
+<label for="book5">ENTER YOUR MOBILE NUMBER:</label>
+<input type="text" name="book5" id="book5" required><br><br><br>
+<label for="book3">ENTER BOOK CODE:</label>
+<select name="book3" id="book3" required><br><br><br>
+
+<option value="A12">A12</option>
+<option value="B20">B20</option>
+<option value="C50">C50</option>
+<option value="D19">D19</option>
+<option value="E59">E59</option>
+<option value="F39">F39</option>
+<option value="G34">G34</option>
+<option value="H53">H53</option>
+<option value="I67">I67</option>
+<option value="J12">J12</option>
+<option value="K99">K99</option>
+<option value="L24">L24</option>
+<option value="M20">M20</option>
+<option value="N65">N65</option>
+<option value="O56">056</option>
+</select>
+
+<br><br><br><label for="book4">NO. OF COPIES YOU WANT TO ORDER:</label>
+<input type="number" name="book4" id="book4" step="1" min="1" max="20" required><br><br><br>
+<p> MODE OF PAYMENT:</p>
+<br><label for="book6">COD</label>
+<input type="checkbox" name="book6" id="book6" value="COD" ><br>
+<label for="book7">CARD</label>
+<input type="checkbox" name="book6" id="book6" value="CARD" ><br><br><br>
+
+
+        <section class="payment">
+          <span>FOR CARD:</span>
+          <br><br>
+	        <!--Add your first radio button below-->
+					<input id="yes" name="cheese" type="radio" value="yes">
+          <label for="yes">CREDIT CARD</label><br>
+	        <!--Add your second radio button below-->
+          <input id="no" name="cheese" type="radio" value="no">
+          <label for="no">DEBIT CARD</label>
+
+
+
+<br><br><br><label for="book10">CARD NUMBER(only numbers(5-10 digits)):</label>
+<input type="text" name="book10" id="book10" required pattern="[0-9]{5,10}">
+
+
+
+<br><br><br><label for="book13">CARD EXPIRY DATE:</label>
+<input type="text" list="ce" name="book13" id="book13" >
+<datalist id="ce">
+<option value="1"></option>
+<option value="2"></option>
+<option value="3"></option>
+<option value="4"></option>
+<option value="5"></option>
+<option value="6"></option>
+<option value="7"></option>
+<option value="8"></option>
+<option value="9"></option>
+<option value="10"></option>
+<option value="11"></option>
+<option value="12"></option>
+</datalist>
+<label for="book14"></label>
+<input type="text" list="cb" name="book14" id="book14" >
+<datalist id="cb">
+<option value="2020"></option>
+<option value="2021"></option>
+<option value="2023"></option>
+<option value="2024"></option>
+<option value="2025"></option>
+<option value="2026"></option>
+<option value="2027"></option>
+<option value="2028"></option>
+
+</datalist>
+
+
+<br><br><br><label for="book11">CVV:</label>
+<input type="password" name="book11" id="book11">
+
+<br><br><br><label for="blog">Any Query or Complaint:</label><br><br>
+<textarea id="blog" name="blog" rows="10" cols="60">
+</textarea>
+
+<br><br><br><br><a href= "savmet4.html" target="_blank"><input  id="submit" type="submit" value="SUBMIT"/></a>
+
+</form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+
+
+	.logo {
+position: static;
+
+	}
+	
+	.social {
+		position: relative;
+		
+		bottom: 75px;
+		left: 1050px;
+	}
+
+
+
+
+
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 200px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.books
+{
+display: inline-grid;
+width: 1300px;
+grid-template-columns: repeat(5,250px);
+height: 1050px;
+grid-template-rows: repeat(3,350px);
+
+justify-contents: evenly;
+grid-gap: 20px 10px;
+justify-self: center;
+background-color: lightblue;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px brown;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: brown;
+  border-radius: 10px;
+}
+
+#contact{
+	text-align: center;
+	color: brown;
+	font-size: 18px;
+}
+
+.rights{
+	opacity: 0.6;
+	color: black;
+	font-size: 17px;
+}
