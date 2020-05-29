@@ -15,7 +15,7 @@ position: static;
 
 
 .navbar {
-  width: 1100px;
+  width: 100%;
   background-color: #555;
   overflow: auto;
 }
