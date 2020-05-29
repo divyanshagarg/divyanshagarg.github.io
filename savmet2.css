@@ -83,6 +83,8 @@ background-color: lightblue;
 	text-align: center;
 	color: brown;
 	font-size: 18px;
+	position: relative;
+	left: 200px;
 }
 	
 
